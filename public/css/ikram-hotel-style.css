@@ -1,0 +1,27 @@
+.ikram-hotel {
+    color : #f3c300;
+    font-weight: bold;
+}
+.input-custom {
+    width: 100%;
+    border: 1px solid #333333;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    height: 40px;
+    color: #999999;
+    background: transparent;
+    padding-left: 20px;
+    
+}
+.input-custom :hover {
+    width: 10%;
+    border: 1px solid #333333;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    height: 40px;
+    color: #999999;
+    background: transparent;
+    padding-left: 20px;
+}
