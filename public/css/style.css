@@ -3478,7 +3478,7 @@ h1, h2, h3, h4, h5, h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: #04091e;
-  padding: 142px 0px;
+  padding: 40px 0px;
 }
 
 .single-footer-widget ul li a {
@@ -3488,7 +3488,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  margin-bottom: 13px;
+  margin-bottom: 6px;
 }
 
 .single-footer-widget ul li a:hover {
@@ -3582,14 +3582,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom .footer-social {
-  text-align: right;
+  text-align: left;
 }
 
 .footer-bottom .footer-social a {
   font-size: 18px;
   line-height: 30px;
   color: #82848f;
-  margin-left: 25px;
+  margin-right: 25px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
