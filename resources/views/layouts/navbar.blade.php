@@ -12,10 +12,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="/">Accueil</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="/services">Offres & Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/apropos">A propos</a></li>
+                            <li class="nav-item <?php echo $accueil;?>"><a class="nav-link"  href="/">Accueil</a></li> 
+                            <li class="nav-item <?php echo $services;?>"><a class="nav-link" href="/services">Offres & Services</a></li>
+                            <li class="nav-item <?php echo $contact;?>"><a class="nav-link" href="/contact">Contact</a></li>
+                            <li class="nav-item <?php echo $apropos;?>"><a class="nav-link" href="/apropos">A propos</a></li>
                         </ul>
                     </div> 
                 </nav>

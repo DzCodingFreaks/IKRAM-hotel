@@ -1,3 +1,8 @@
+<?php   $accueil = "";
+        $services = "";
+        $contact = "";
+        $apropos = "active"; ?>
+
 <!doctype html>
 <html lang="en">
     <head>
