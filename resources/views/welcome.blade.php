@@ -1,5 +1,6 @@
 <?php   $accueil = "active";
         $services = "";
+        $gallerie = "";
         $contact = "";
         $apropos = ""; ?>
 

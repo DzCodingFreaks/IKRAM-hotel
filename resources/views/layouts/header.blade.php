@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="{{asset('vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css')}}">
         <link rel="stylesheet" href="{{asset('vendors/nice-select/css/nice-select.css')}}">
         <link rel="stylesheet" href="{{asset('vendors/owl-carousel/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendors/lightbox/simpleLightbox.css')}}">
         <!-- main css -->
         <link rel="stylesheet" href="{{asset('css/style.css')}}">
         <link rel="stylesheet" href="{{asset('css/socials.css')}}">

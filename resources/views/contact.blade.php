@@ -1,5 +1,6 @@
 <?php   $accueil = "";
         $services = "";
+        $gallerie = "";
         $contact = "active";
         $apropos = ""; ?>
 
@@ -28,15 +29,11 @@
         <!--================Contact Area =================-->
         <section class="contact_area section_gap">
             <div class="container">
-                <div id="mapBox" class="mapBox" 
-                    style="border:1px solid Grey"
-                    data-lat="40.701083" 
-                    data-lon="-74.1522848" 
-                    data-zoom="13" 
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
-                </div>
+            <div style="width:100%;padding:5%">
+                <img id="" class="mapBox" src="{{asset('image/map.png')}}"/>
+            </div>
+                
+                
                 <div class="row" >
                     <div class="col-4" style="margin:auto">
                         <h3>Hotel IKRAM Oran</h3><br>

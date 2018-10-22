@@ -14,6 +14,7 @@
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item <?php echo $accueil;?>"><a class="nav-link"  href="/">Accueil</a></li> 
                             <li class="nav-item <?php echo $services;?>"><a class="nav-link" href="/services">Offres & Services</a></li>
+                            <li class="nav-item <?php echo $gallerie;?>"><a class="nav-link" href="/gallerie">Galerie</a></li>
                             <li class="nav-item <?php echo $contact;?>"><a class="nav-link" href="/contact">Contact</a></li>
                             <li class="nav-item <?php echo $apropos;?>"><a class="nav-link" href="/apropos">A propos</a></li>
                         </ul>

@@ -1,5 +1,6 @@
 <?php   $accueil = "";
         $services = "";
+        $gallerie = "";
         $contact = "";
         $apropos = "active"; ?>
 
@@ -59,7 +60,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img style="width:80%;margin:auto"  src="https://static.oc-static.com/prod/courses/illustrations/illu_google-maps-javascript-api-v3.png" />
+                            <img style="width:80%;height:170px;margin:auto"  src="{{asset('image/map.png')}}" />
                         </div>
                     </div>
                 </div>				
