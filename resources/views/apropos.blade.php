@@ -9,6 +9,18 @@
     <head>
         
     @include('layouts.header')
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+
+    <style>
+        #map_oran , #map_alger { 
+            margin-top: 30px; 
+            margin-bottom: 30px;  
+            width: 100%; 
+            height : 200px;
+            border: solid #999 1px;  
+            }
+    </style>
     </head>
     <body>
         <!--================ Navbar =================-->
@@ -20,7 +32,7 @@
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
             <div class="container">
                 <div class="page-cover text-center">
-                    <h2 class="page-cover-tittle">A PROPOS</h2>
+                    <h2 class="page-cover-tittle">A PROPOS DE NOUS</h2>
                 </div>
             </div>
         </section>
@@ -29,38 +41,55 @@
         <section class="sample-text-area">
             <div class="container">
                 <h3 class="text-heading title_color">Groupe d'hotels IKRAM</h3>
-                <p class="sample-text">
-                    Every avid independent filmmaker has <b>Bold</b> about making that <i>Italic</i> interest documentary, or short film to show off their creative prowess. Many have great ideas and want to “wow” the<sup>Superscript</sup> scene, or video renters with their big project.  But once you have the<sub>Subscript</sub> “in the can” (no easy feat), how do you move from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep?  You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results: 
-
-                </p>
-                <br><br>
-                <h3 class="text-heading title_color">Notre vision</h3>
-                <p class="sample-text">
-                    Marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep?  You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results: 
-
-                </p>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <p class="sample-text">
+                        <h4>Hotel IKRAM ALGER</h4>
+                        Situé à Alger, l'Hotel Ikram Alger propose une connexion Wi-Fi gratuite.Toutes ces chambres climatisées disposent d'une télévision, d'un minibar ainsi que d'une salle de bains privative pourvue d'une baignoire ou d'une douche. Le linge de lit est également fourni.
+                        Un hammam, une réception ouverte 24h/24 et un bar sont à votre disposition dans l'établissement. Une salle de réunion est en outre disponible. Par ailleurs, vous pourrez profiter d'un éventail d'activités sur place ou dans les environs, comme l'équitation, la pêche et la plongée sous-marine.
+                        L’aéroport international d'Alger-Houari Boumédiène est accessible à 6 km. 
+                        Nous parlons votre langue ! 
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12 pull-right">
+                        <div class="" id='map_alger'></div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <p class="sample-text">
+                        <h4>Hotel IKRAM ORAN</h4>
+                        Doté d'un restaurant, l'Hotel Ikram Oran est situé à Oran. Il vous propose une connexion Wi-Fi gratuite.
+                        Les chambres comprennent toutes la climatisation et un minibar. Leur salle de bains privative est munie d'une baignoire ou d'une douche. Le linge de lit vous sera en outre fourni.
+                        La réception de l'établissement est ouverte 24h/24.L'Hotel Ikram Oran est placé à 9 km de l'aéroport d'Oran - Ahmed Ben Bella. 
+                        Nous parlons votre langue !
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div id='map_oran'></div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Start Align Area -->
         <div class="whole-wrap">
             <div class="container">
+            <h3 class="mb-20">Réglementation</h3>
                 <div class="section-top-border">
                     <div class="row">
-                        <div class="col-md-4">
+                       
+                        <div class="col-md-6 col-sm-12">
                             <div class="single-defination">
-                                <h4 class="mb-20">Dossier</h4>
-                                <p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks</p>
+                                <h5>Hotel IKRAM Alger</h5>
+                                <p>Arrivée entre 12h00 et 00h00<br>
+                                Départ entre 6h00 et 13h00
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20">Réglementation</h4>
-                                <p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img style="width:80%;height:170px;margin:auto"  src="{{asset('image/map.png')}}" />
+                        <div class="col-md-6 col-sm-12">
+                            <h5>Hotel IKRAM Oran</h5>
+                            <p>Arrivée à partir de 14h00<br>
+                            Départ jusqu'à 11h00
+                            </p>
                         </div>
                     </div>
                 </div>				
@@ -69,6 +98,23 @@
         <!-- End Align Area -->
        
         @include('layouts.footer')
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoidGVtcGtoYWxlZCIsImEiOiJjam8zZHM4N2UwNnNiM3duMjBkbHpoYnllIn0.3CcVU_PQvw9SWS-E0kv67Q';
+            var map1 = new mapboxgl.Map({
+                container: 'map_alger', // container id
+                style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+                center: [3.0587, 36.7537], // starting position [lng, lat]
+                zoom: 11 // starting zoom
+            });
+
+            var map2 = new mapboxgl.Map({
+                container: 'map_oran', // container id
+                style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+                center: [-0.64167 , 35.69111], // starting position [lng, lat]
+                zoom: 11 // starting zoom
+            });
+            
+        </script>
        
     </body>
 </html>

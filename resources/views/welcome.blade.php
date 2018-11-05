@@ -28,10 +28,11 @@
 						<h6>c'est là ou vous appartenez</h6>
 						<h2><span style="color:white;">Groupe d'hotels IKRAM </span></h2>
 						<p>Si vous cherchez un bon endroit pour passer des nuits <br>c'est bien l'hotel <span class="ikram-hotel"> Ikram </span> que vous cherchez</p>
-						<a href="#" class="btn theme_btn button_hover">En savoir plus</a>
+						<a href="/apropos" class="btn theme_btn button_hover">En savoir plus</a>
 					</div>
 				</div>
             </div>
+            <!-- rebrique de réservation
             <div class="hotel_booking_area position">
                 <div class="container">
                     <div class="hotel_booking_table">
@@ -90,6 +91,7 @@
                     </div>
                 </div>
             </div>
+            -->
         </section>
         <!--================Banner Area =================-->
                 
@@ -105,7 +107,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+                        <img class="img-fluid" src="image/img-home.jpg" alt="img">
                     </div>
                 </div>
             </div>

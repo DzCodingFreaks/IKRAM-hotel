@@ -22,8 +22,7 @@ class galleryController extends Controller
         return view('gallery',['photos' => $images]);
     }
 
-    public function store(Request $request)
-    {
+    public function store(Request $request){
         $photos = $request->file('file');
  
         if (!is_array($photos)) {
@@ -54,8 +53,7 @@ class galleryController extends Controller
         ], 200);
     }
 
-    public function destroy(Request $request)
-    {
+    public function destroy(Request $request){
         $filename = $request->id;
         if(isset($request->manual)) $fname = "filename";
         else $fname = "original_name";
@@ -81,5 +79,27 @@ class galleryController extends Controller
         }
         
         return Response::json(['message' => 'File successfully delete'], 200);
+    }
+
+    public function update(Request $request){
+        $photo = $request->file('file');
+  
+        if (!is_dir($this->photos_path)) {
+            mkdir($this->photos_path, 0777);
+        }
+        
+        $file_name = '';
+        switch($request->type){
+            case('0'): $file_name = 'bg-home.jpg'; break;
+            case('1'): $file_name = 'img-home.jpg'; break;
+            case('2'): $file_name = 'bg-pages.jpg'; break;
+        };
+
+        $path = public_path('/image');
+        $photo->move($path, $file_name);
+
+        return Response::json([
+            'message' => 'Image saved Successfully'
+        ], 200);
     }
 }

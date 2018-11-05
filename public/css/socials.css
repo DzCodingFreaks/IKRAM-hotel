@@ -5,7 +5,7 @@
 .social-media-sidebar {
   position: fixed;
   top: 35vh;
-  right: 0;
+  left: 0;
 }
 
 .social-media-sidebar ul {

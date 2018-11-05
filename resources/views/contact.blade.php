@@ -29,9 +29,7 @@
         <!--================Contact Area =================-->
         <section class="contact_area section_gap">
             <div class="container">
-            <div style="width:100%;padding:5%">
-                <img id="" class="mapBox" src="{{asset('image/map.png')}}"/>
-            </div>
+           
                 
                 
                 <div class="row" >
@@ -41,16 +39,16 @@
                             <div class="info_item">
                                 <i class="lnr lnr-home"></i>
                                 <h6>Oran</h6>
-                                <p>Boulvard ...etc</p>
+                                <p>Les Castors, El Ghazali, 31000</p>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-phone-handset"></i>
-                                <h6><a href="#">+ (213) 9865 562</a></h6>
+                                <h6><a href="#">+ (213) 770 96 35 94</a></h6>
                                 <p>disponibilité 24/24  et 7/7</p>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">info@ikram-hotel.dz</a></h6>
+                                <h6><a href="#"> hotelikram@gmail.com</a></h6>
                             </div>
                         </div>
                     </div>
@@ -60,16 +58,16 @@
                             <div class="info_item">
                                 <i class="lnr lnr-home"></i>
                                 <h6>Alger</h6>
-                                <p>Boulvard ...etc</p>
+                                <p>5, rue Colonel Amirouche, Bordj El Kifan, 18000 Fort-de-l'Eau</p>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-phone-handset"></i>
-                                <h6><a href="#">+ (213) 9865 562</a></h6>
+                                <h6><a href="#">+ (213) 21 20 41 32</a></h6>
                                 <p>disponibilité 24/24  et 7/7</p>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">info@ikram-hotel.dz</a></h6>
+                                <h6><a href="#"> hotelikram@gmail.com</a></h6>
                             </div>
                         </div>
                     </div>

@@ -35,7 +35,7 @@ Route::get('/account', 'AdminController@account');
 
 Route::get('/gallery', 'AdminController@gallery' );
 
-Route::post('/updateUserPassword','adminController@updateUserPassword');
+Route::post('/updateUserInfo','adminController@updateUserInfo');
 
 Route::post('/updateUserPassword','adminController@updateUserPassword');
 
@@ -44,6 +44,8 @@ Route::post('/updateUserPassword','adminController@updateUserPassword');
 Route::post('/images-save', 'galleryController@store');
 
 Route::post('/images-delete', 'galleryController@destroy');
+
+Route::post('/images-update', 'galleryController@update');
 
 Auth::routes();
 

@@ -8,6 +8,7 @@
 <html lang="en">
     <head>
        @include('layouts.header')
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
         <!--================ Navbar =================-->
@@ -37,20 +38,20 @@
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="image/room1.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Chambre à 1</h4></a>
-                            <h5>5000 DZD<small>/nuit</small></h5>
+                            <a href="#"><h4 class="sec_h4">Chambre</h4></a>
+                            <h5>2000 DZD<small>/nuit</small></h5>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="image/room2.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Chambre à 2</h4></a>
-                            <h5>8000 DZD<small>/nuit</small></h5>
+                            <a href="#"><h4 class="sec_h4">Lit d'appoint</h4></a>
+                            <h5>Gratuit</h5>
                         </div>
                     </div>
                 </div>
@@ -60,6 +61,7 @@
         <!--================Booking Tabel Area =================-->
         <section class="hotel_booking_area">
             <div class="container">
+           <!-- Rubrique de réservation
             <div class="hotel_booking_area position">
                 <div class="container">
                     <div class="hotel_booking_table">
@@ -118,6 +120,7 @@
                     </div>
                 </div>
             </div>
+            -->
             </div>
         </section>
         <!--================Booking Tabel Area  =================-->        
@@ -133,26 +136,38 @@
                 <div class="row mb_30">
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-leaf"></i>Climatisation</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-leaf"></i>Général</h4>
+                            <p>Climatisation, Chauffage, Coffre-fort, Ascenseur, Chambres non-fumeurs, Journaux <br><br></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-phone"></i>Support 24/24</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="fa fa-concierge-bell"></i>Service 24h/24</h4>
+                            <p>Navette aéroport (en supplément), enregistrement et règlement rapide, salles de réunions/banquets, Centre d'affaires, fax/photocopies </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="fa fa-concierge-bell"></i>Reception à l'écout</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="fas fa-dog"></i>Animaux domestiques</h4>
+                            <p>Les animaux de compagnie sont admis (un supplément peut s'appliquer).<br><br><br></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" style="margin:auto">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>commodité </h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="fas fa-utensils"></i>Restauration </h4>
+                            <p>petit-déjeuner en chambre, Snack-bar, Bar</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="margin:auto">
+                        <div class="facilities_item">
+                            <h4 class="sec_h4"><i class="fas fa-wifi"></i>Wifi </h4>
+                            <p>Une connexion Wi-Fi est disponible dans certaines chambres gratuitement.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="margin:auto">
+                        <div class="facilities_item">
+                            <h4 class="sec_h4"><i class="fas fa-hiking"></i>>Activités </h4>
+                            <p>plongée avec tuba, Équitation, Plongée sous-marine, Pêche</p>
                         </div>
                     </div>
                 </div>

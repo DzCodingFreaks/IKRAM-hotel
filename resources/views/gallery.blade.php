@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="section_title text-center">
                     <h2 class="title_color">Galerie hotel IKRAM</h2>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                    <p>--</p>
                 </div>
                 <div class="row imageGallery1" id="gallery">
                 @foreach( $photos as $item )
