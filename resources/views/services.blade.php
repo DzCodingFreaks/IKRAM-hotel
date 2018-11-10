@@ -37,21 +37,50 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room1.jpg" alt="">
-                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
+                                <img src="/image/rooms/single_room.jpg" alt="">
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-image"></i></a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Chambre</h4></a>
-                            <h5>2000 DZD<small>/nuit</small></h5>
+                            <a href="/gallerie"><h5>Chambre single</h5></a>
+                            <p class="sec_h5">1 personne avec un petit déjeuner</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room2.jpg" alt="">
-                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-search"></i></a>
+                                <img src="image/rooms/double_room_cours.jpg" alt="">
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-image"></i></a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Lit d'appoint</h4></a>
-                            <h5>Gratuit</h5>
+                            <a href="/gallerie"><h5>Chambre double avec vue sur cours</h5></a>
+                            <p class="sec_h5">2 personnes avec petit déjeuner</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="/image/rooms/double_room_vue_beach.jpg" alt="">
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-image"></i></a>
+                            </div>
+                            <a href="/gallerie"><h5>Chambre double avec vue sur mer</h5></a>
+                            <p class="sec_h5">2 personnes avec petit déjeuner</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="/image/rooms/triple_room.jpg" alt="">
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-image"></i></a>
+                            </div>
+                            <a href="/gallerie"><h5>Chambre Triple </h5></a>
+                            <p class="sec_h5">3 personnes avec petit déjeuner</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="/image/rooms/parking.jpg" alt="">
+                                <a href="/gallerie" class="btn theme_btn button_hover"><i class="fa fa-image"></i></a>
+                            </div>
+                            <a href="/gallerie"><h5>Parking Sécurisé</h5></a>
                         </div>
                     </div>
                 </div>

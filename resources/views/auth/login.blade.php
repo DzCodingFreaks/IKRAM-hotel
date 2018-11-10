@@ -37,9 +37,9 @@
                                         <label>
                                             <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>Souvenir de moi
                                         </label>
-                                        <label>
+                                       <!-- <label>
                                             <a href="{{ route('password.request') }}">Passeword oublié</a>
-                                        </label>
+                                        </label> -->
                                     </div>
                                     <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">S'authentifier</button>
                                     @if ($errors->has('password'))

@@ -103,16 +103,24 @@
             var map1 = new mapboxgl.Map({
                 container: 'map_alger', // container id
                 style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-                center: [3.0587, 36.7537], // starting position [lng, lat]
+                center: [3.177170 , 36.744520], // starting position [lng, lat]
                 zoom: 11 // starting zoom
             });
 
             var map2 = new mapboxgl.Map({
                 container: 'map_oran', // container id
                 style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-                center: [-0.64167 , 35.69111], // starting position [lng, lat]
+                center: [-0.6308198 , 35.7009736], // starting position [lng, lat]
                 zoom: 11 // starting zoom
             });
+
+            var marker1 = new mapboxgl.Marker()
+                        .setLngLat([3.177170 , 36.744520])
+                        .addTo(map1);
+
+            var marker2 = new mapboxgl.Marker()
+                        .setLngLat([-0.6308198 , 35.7009736])
+                        .addTo(map2);
             
         </script>
        

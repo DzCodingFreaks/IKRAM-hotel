@@ -102,12 +102,12 @@
                     <div class="col-md-6 d_flex align-items-center">
                         <div class="about_content ">
                             <h2 class="title title_color">Voulez-vous connaitre plus sur<br>l'hotel IKRAM<br></h2>
-                            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women ....</p>
+                            <p>Doté de plus de 30 chambres, fonctionnelles avec une vue sur la Méditerranée, l’hôtel Ikram  est votre meilleure adresse...</p>
                             <a href="/apropos" class="button_hover theme_btn_two">A propos de nous</a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="image/img-home.jpg" alt="img">
+                        <img class="img-fluid" src="/image/img-home.jpg" alt="img">
                     </div>
                 </div>
             </div>

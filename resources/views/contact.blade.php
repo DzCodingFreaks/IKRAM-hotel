@@ -33,7 +33,7 @@
                 
                 
                 <div class="row" >
-                    <div class="col-4" style="margin:auto">
+                    <div class="col-md-4 col-sm-12" style="margin:auto;margin-top:50px">
                         <h3>Hotel IKRAM Oran</h3><br>
                         <div class="contact_info">
                             <div class="info_item">
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4" style="margin:auto">
+                    <div class="col-md-4 col-sm-12" style="margin:auto;margin-top:50px">
                         <h3>Hotel IKRAM Alger</h3><br>
                         <div class="contact_info">
                             <div class="info_item">

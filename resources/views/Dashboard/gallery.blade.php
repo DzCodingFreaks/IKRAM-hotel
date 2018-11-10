@@ -7,12 +7,10 @@
 <body class="animsition">
     <div class="page-wrapper">
        
-    @include('Dashboard.layouts.navbar')
-
+         @include('Dashboard.layouts.navbar')
         <!-- PAGE CONTAINER-->
         <div class="page-container">
-        @include('Dashboard.layouts.head')
-
+            @include('Dashboard.layouts.head')
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
@@ -29,8 +27,7 @@
                                             <input type="hidden" name="manual" value="true" />
                                         </form>
                                         <button onclick="document.getElementById('{{ $item->filename }}').submit()" class="btn btn-danger float-right">x</button>
-                                    </div>
-                                    
+                                    </div>  
                                 </div>
                             </div>
                             @endforeach
@@ -45,18 +42,27 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- END MAIN CONTENT-->
             <!-- END PAGE CONTAINER-->
         </div>
-
     </div>
 
-     <!-- add new photos modal -->
-     <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+     
+
+@include('Dashboard.layouts.footer')
+
+<!-- add new photos modal -->
+<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -140,10 +146,6 @@
         </div>
     </div>
     <!-- end add new photos modal -->
-
-@include('Dashboard.layouts.footer')
-
-
 
 </body>
 
