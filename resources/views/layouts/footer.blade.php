@@ -23,7 +23,7 @@
             <div class="row">
               <div class="col-8 footer-bottom">
                 <div class="footer-social list_style">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/hotelikram"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
               </div>								
@@ -32,7 +32,7 @@
         </div>
         <div class="border_line"></div>
         <div class="row footer-bottom d-flex justify-content-between align-items-center">
-            <p class="col-lg-6 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p class="col-lg-6 col-sm-12 footer-text m-0" style="text-align:center" ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> tout droit réservé </p>
             <p class="col-lg-6 col-sm-12 footer-text m-0" style="text-align:center">made by <a href="http://astrabridge.pro/">AB Solutions</a></p>
         </div>
